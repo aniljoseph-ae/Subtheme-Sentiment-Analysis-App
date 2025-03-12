@@ -5,9 +5,7 @@ spacy==3.4.1
 nltk==3.7
 altair==4.2.0
 numpy==1.23.5
-nltk
-spacy
 spacy-transformers
-en_core_web_trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.5.0/en_core_web_trf-3.5.0.tar.gz
-en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.6.0/en_core_web_trf-3.6.0.tar.gz
 
+# Download and install the SpaCy transformer model
+en-core-web-trf @ https://github.com/explosion/spacy-models/releases/download/en_core_web_trf-3.5.0/en_core_web_trf-3.5.0.tar.gz
