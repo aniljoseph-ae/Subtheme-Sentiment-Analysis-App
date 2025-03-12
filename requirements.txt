@@ -1,5 +1,8 @@
-streamlit
-torch
-transformers
-spacy
-nltk
+python==3.9
+streamlit==1.16.0
+torch==1.12.1
+transformers==4.21.3
+spacy==3.4.1
+nltk==3.7
+pytorch-lightning==1.6.5
+cupy==10.5.0
