@@ -1,5 +1,12 @@
+import sys
+print(sys.path)
+
+import os
+print(os.getcwd())
+
+
 import streamlit as st
-from util import analyze_review_detailed
+from utils import analyze_review_detailed
 from transformers import AutoModelForSequenceClassification, AutoTokenizer
 
 # Load fine-tuned BERT model
